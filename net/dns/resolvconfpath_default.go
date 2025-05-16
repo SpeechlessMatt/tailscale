@@ -6,6 +6,6 @@
 package dns
 
 const (
-	resolvConf = "/etc/resolv.conf"
-	backupConf = "/etc/resolv.pre-tailscale-backup.conf"
+	resolvConf = "/data/adb/tailscale/tmp/resolv.conf"
+	backupConf = "/data/adb/tailscale/tmp/resolv.pre-tailscale-backup.conf"
 )
